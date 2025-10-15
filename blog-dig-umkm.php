@@ -97,7 +97,7 @@
                                                         <li><a href="index-5.php">AI Photostock</a></li>
                                                     </ul>
                                                 </li>
-                                                <li><a href="about.php">About</a></li>
+                                                <li><a href="about.php">Tentang CORE</a></li>
                                                 <li class="menu-has-child">
                                                     <a href="#">Pages</a>
                                                     <ul class="submenu">
@@ -160,7 +160,7 @@
                 </header>
 
                 <main>
-                    <?php $subTitle='Blog Details' ?>
+                    <?php $subTitle = 'Blog Details' ?>
                     <!-- breadcrumb area start -->
                     <?php include './partials/breadcrumb.php' ?>
                     <!-- breadcrumb area end -->

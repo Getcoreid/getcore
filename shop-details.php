@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 
-   <?php include './partials/head.php' ?>
+<?php include './partials/head.php' ?>
 
-  <body>
+<body>
 
     <!-- Cursor start -->
     <?php include './partials/Cursor_start.php' ?>
@@ -16,13 +16,13 @@
     <!-- modal-search-start -->
     <?php include './partials/modal-search-start.php' ?>
     <!-- modal-search-end -->
-    
+
     <!-- sidebar-information-area-start -->
     <?php include './partials/sidebar_information.php' ?>`
     <!-- sidebar-information-area-end -->
 
     <div class="has-smooth" id="has_smooth"></div>
-    
+
     <div id="smooth-wrapper">
         <div id="smooth-content">
             <div class="body-wrapper">
@@ -39,25 +39,22 @@
                                 <div class="col-xl-6 col-lg-5 d-none d-lg-block">
                                     <div class="h5_header-top-right">
                                         <div class="h5_header-top-language">
-                                            <select name="select" class="h5_header-top-language-option has-nice-select">
-                                                <option value="1">English</option>
-                                                <option value="2">Bangla</option>
-                                                <option value="3">Arabic</option>
-                                                <option value="4">Urdu</option>
+                                            <select name="language" class="h5_header-top-language-option has-nice-select">
+                                                <option value="id" selected>Indonesian</option>
+                                                <option value="en">English</option>
                                             </select>
                                         </div>
                                         <div class="h5_header-top-currency">
-                                            <select name="select" class="h5_header-top-currency-option has-nice-select">
-                                                <option value="1">$USD</option>
-                                                <option value="2">৳Taka</option>
-                                                <option value="3">€Euro</option>
+                                            <select name="currency" class="h5_header-top-currency-option has-nice-select">
+                                                <option value="idr" selected>IDR</option>
+                                                <option value="usd">$USD</option>
                                             </select>
                                         </div>
                                         <div class="h5_header-top-account">
                                             <a href="#">
                                                 <svg width="14" height="16" viewBox="0 0 14 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M7.0127 8C8.94569 8 10.5127 6.433 10.5127 4.5C10.5127 2.567 8.94569 1 7.0127 1C5.0797 1 3.5127 2.567 3.5127 4.5C3.5127 6.433 5.0797 8 7.0127 8Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                                    <path d="M13.026 15C13.026 12.291 10.331 10.1 7.013 10.1C3.695 10.1 1 12.291 1 15" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                    <path d="M7.0127 8C8.94569 8 10.5127 6.433 10.5127 4.5C10.5127 2.567 8.94569 1 7.0127 1C5.0797 1 3.5127 2.567 3.5127 4.5C3.5127 6.433 5.0797 8 7.0127 8Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                                    <path d="M13.026 15C13.026 12.291 10.331 10.1 7.013 10.1C3.695 10.1 1 12.291 1 15" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                                                 </svg>
                                                 My Account
                                             </a>
@@ -72,7 +69,7 @@
                             <div class="row align-items-center justify-content-between">
                                 <div class="col-xl-2 col-lg-2 col-4">
                                     <div class="h5_header-logo">
-                                        <a href="index.php"><img src="assets/images/logo/logo.png" alt="Image Not Found"></a>
+                                        <a href="index.php"><img src="assets/images/logo/logo-core.png" alt="Image Not Found"></a>
                                     </div>
                                 </div>
                                 <div class="col-xl-7 col-lg-6 d-none d-lg-block text-center">
@@ -89,7 +86,7 @@
                                                         <li><a href="index-5.php">AI Photostock</a></li>
                                                     </ul>
                                                 </li>
-                                                <li><a href="about.php">About</a></li>
+                                                <li><a href="about.php">Tentang CORE</a></li>
                                                 <li class="menu-has-child">
                                                     <a href="#">Pages</a>
                                                     <ul class="submenu">
@@ -133,7 +130,7 @@
                                                 <a href="cart.php" class="h5_header-action-cart"><i class="fa-light fa-shopping-bag"></i><span>12</span></a>
                                             </div>
                                             <a href="#" class="h5_header-action-btn">
-                                                Get Started<i class="fa-light fa-angle-right"></i>                                
+                                                Get Started<i class="fa-light fa-angle-right"></i>
                                             </a>
                                         </div>
                                         <div class="header-menu-bar d-lg-none ml-10">
@@ -149,7 +146,7 @@
                 </header>
 
                 <main>
-                    <?php $subTitle='Shop Details' ?>
+                    <?php $subTitle = 'Shop Details' ?>
                     <!-- breadcrumb area start -->
                     <?php include './partials/breadcrumb.php' ?>
                     <!-- breadcrumb area end -->
@@ -184,7 +181,7 @@
                                         <p class="shop_details-content-text tp_fade_bottom">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin liter ature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginian in 45 BC.</p>
                                         <div class="shop_details-action">
                                             <div class="shop_details-action-box quantity-box tp_fade_bottom">
-                                                <a  href="#0" class="minus"><i class="fa-regular fa-minus"></i></a>
+                                                <a href="#0" class="minus"><i class="fa-regular fa-minus"></i></a>
                                                 <input type="text" readonly name="quantity" value="1">
                                                 <a href="#0" class="plus"><i class="fa-regular fa-plus"></i></a>
                                             </div>
@@ -221,10 +218,10 @@
                                 <div class="shop_details-tab">
                                     <ul class="nav nav-tabs tp_fade_bottom" id="myTab" role="tablist">
                                         <li class="nav-item" role="presentation">
-                                        <a href="#" class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" role="tab" aria-controls="home-tab-pane" aria-selected="true">Description</a>
+                                            <a href="#" class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" role="tab" aria-controls="home-tab-pane" aria-selected="true">Description</a>
                                         </li>
                                         <li class="nav-item" role="presentation">
-                                        <a href="#" class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Review(5)</a>
+                                            <a href="#" class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Review(5)</a>
                                         </li>
                                     </ul>
                                     <div class="tab-content" id="myTabContent">
@@ -235,28 +232,32 @@
                                                 <ul class="shop_details-description-list tp_fade_bottom">
                                                     <li>
                                                         <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                            <path d="M15.6776 0L16.0005 0.466368C14.6373 1.50672 13.0947 3.0852 11.4086 5.27353C9.7225 7.42599 8.43102 9.43496 7.53416 11.3363L6.81667 11.8027C6.20681 12.1973 5.81219 12.5202 5.59695 12.7354C5.5252 12.4484 5.34583 11.9462 5.05883 11.2646L4.77183 10.6188C4.37722 9.72195 4.01847 9.04034 3.6956 8.60985C3.37273 8.17935 2.97811 7.89236 2.5835 7.74886C3.26511 7.03138 3.91085 6.63676 4.48484 6.63676C4.98708 6.63676 5.5252 7.31837 6.13506 8.64572L6.42206 9.32733C7.49829 7.49774 8.89739 5.70403 10.6194 3.98206C12.3772 2.26009 14.0633 0.932733 15.6776 0Z" fill="currentColor"/>
-                                                            <path d="M12.1973 3.80264C10.7982 2.40354 9.11209 1.72192 7.139 1.72192C5.16591 1.72192 3.47981 2.40354 2.08071 3.80264C0.681614 5.20174 0 6.88783 0 8.86092C0 10.834 0.681614 12.5201 2.08071 13.9192C3.47981 15.3183 5.16591 15.9999 7.139 15.9999C9.11209 15.9999 10.7982 15.3183 12.1973 13.9192C13.5964 12.5201 14.278 10.834 14.278 8.86092C14.278 6.88783 13.5605 5.20174 12.1973 3.80264ZM11.1569 12.8789C10.0448 13.991 8.6816 14.5649 7.10313 14.5649C5.52465 14.5649 4.16143 13.991 3.04932 12.8789C1.93722 11.7667 1.36323 10.4035 1.36323 8.82505C1.36323 7.24658 1.93722 5.88335 3.04932 4.77125C4.16143 3.65914 5.52465 3.08515 7.10313 3.08515C8.6816 3.08515 10.0448 3.65914 11.1569 4.77125C12.269 5.88335 12.843 7.24658 12.843 8.82505C12.843 10.4394 12.269 11.7667 11.1569 12.8789Z" fill="currentColor"/>
+                                                            <path d="M15.6776 0L16.0005 0.466368C14.6373 1.50672 13.0947 3.0852 11.4086 5.27353C9.7225 7.42599 8.43102 9.43496 7.53416 11.3363L6.81667 11.8027C6.20681 12.1973 5.81219 12.5202 5.59695 12.7354C5.5252 12.4484 5.34583 11.9462 5.05883 11.2646L4.77183 10.6188C4.37722 9.72195 4.01847 9.04034 3.6956 8.60985C3.37273 8.17935 2.97811 7.89236 2.5835 7.74886C3.26511 7.03138 3.91085 6.63676 4.48484 6.63676C4.98708 6.63676 5.5252 7.31837 6.13506 8.64572L6.42206 9.32733C7.49829 7.49774 8.89739 5.70403 10.6194 3.98206C12.3772 2.26009 14.0633 0.932733 15.6776 0Z" fill="currentColor" />
+                                                            <path d="M12.1973 3.80264C10.7982 2.40354 9.11209 1.72192 7.139 1.72192C5.16591 1.72192 3.47981 2.40354 2.08071 3.80264C0.681614 5.20174 0 6.88783 0 8.86092C0 10.834 0.681614 12.5201 2.08071 13.9192C3.47981 15.3183 5.16591 15.9999 7.139 15.9999C9.11209 15.9999 10.7982 15.3183 12.1973 13.9192C13.5964 12.5201 14.278 10.834 14.278 8.86092C14.278 6.88783 13.5605 5.20174 12.1973 3.80264ZM11.1569 12.8789C10.0448 13.991 8.6816 14.5649 7.10313 14.5649C5.52465 14.5649 4.16143 13.991 3.04932 12.8789C1.93722 11.7667 1.36323 10.4035 1.36323 8.82505C1.36323 7.24658 1.93722 5.88335 3.04932 4.77125C4.16143 3.65914 5.52465 3.08515 7.10313 3.08515C8.6816 3.08515 10.0448 3.65914 11.1569 4.77125C12.269 5.88335 12.843 7.24658 12.843 8.82505C12.843 10.4394 12.269 11.7667 11.1569 12.8789Z" fill="currentColor" />
                                                         </svg>
-                                                        Many variations of passages of Lorem Ipsum available, but the majority have suffered.</li>
+                                                        Many variations of passages of Lorem Ipsum available, but the majority have suffered.
+                                                    </li>
                                                     <li>
                                                         <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                            <path d="M15.6776 0L16.0005 0.466368C14.6373 1.50672 13.0947 3.0852 11.4086 5.27353C9.7225 7.42599 8.43102 9.43496 7.53416 11.3363L6.81667 11.8027C6.20681 12.1973 5.81219 12.5202 5.59695 12.7354C5.5252 12.4484 5.34583 11.9462 5.05883 11.2646L4.77183 10.6188C4.37722 9.72195 4.01847 9.04034 3.6956 8.60985C3.37273 8.17935 2.97811 7.89236 2.5835 7.74886C3.26511 7.03138 3.91085 6.63676 4.48484 6.63676C4.98708 6.63676 5.5252 7.31837 6.13506 8.64572L6.42206 9.32733C7.49829 7.49774 8.89739 5.70403 10.6194 3.98206C12.3772 2.26009 14.0633 0.932733 15.6776 0Z" fill="currentColor"/>
-                                                            <path d="M12.1973 3.80264C10.7982 2.40354 9.11209 1.72192 7.139 1.72192C5.16591 1.72192 3.47981 2.40354 2.08071 3.80264C0.681614 5.20174 0 6.88783 0 8.86092C0 10.834 0.681614 12.5201 2.08071 13.9192C3.47981 15.3183 5.16591 15.9999 7.139 15.9999C9.11209 15.9999 10.7982 15.3183 12.1973 13.9192C13.5964 12.5201 14.278 10.834 14.278 8.86092C14.278 6.88783 13.5605 5.20174 12.1973 3.80264ZM11.1569 12.8789C10.0448 13.991 8.6816 14.5649 7.10313 14.5649C5.52465 14.5649 4.16143 13.991 3.04932 12.8789C1.93722 11.7667 1.36323 10.4035 1.36323 8.82505C1.36323 7.24658 1.93722 5.88335 3.04932 4.77125C4.16143 3.65914 5.52465 3.08515 7.10313 3.08515C8.6816 3.08515 10.0448 3.65914 11.1569 4.77125C12.269 5.88335 12.843 7.24658 12.843 8.82505C12.843 10.4394 12.269 11.7667 11.1569 12.8789Z" fill="currentColor"/>
+                                                            <path d="M15.6776 0L16.0005 0.466368C14.6373 1.50672 13.0947 3.0852 11.4086 5.27353C9.7225 7.42599 8.43102 9.43496 7.53416 11.3363L6.81667 11.8027C6.20681 12.1973 5.81219 12.5202 5.59695 12.7354C5.5252 12.4484 5.34583 11.9462 5.05883 11.2646L4.77183 10.6188C4.37722 9.72195 4.01847 9.04034 3.6956 8.60985C3.37273 8.17935 2.97811 7.89236 2.5835 7.74886C3.26511 7.03138 3.91085 6.63676 4.48484 6.63676C4.98708 6.63676 5.5252 7.31837 6.13506 8.64572L6.42206 9.32733C7.49829 7.49774 8.89739 5.70403 10.6194 3.98206C12.3772 2.26009 14.0633 0.932733 15.6776 0Z" fill="currentColor" />
+                                                            <path d="M12.1973 3.80264C10.7982 2.40354 9.11209 1.72192 7.139 1.72192C5.16591 1.72192 3.47981 2.40354 2.08071 3.80264C0.681614 5.20174 0 6.88783 0 8.86092C0 10.834 0.681614 12.5201 2.08071 13.9192C3.47981 15.3183 5.16591 15.9999 7.139 15.9999C9.11209 15.9999 10.7982 15.3183 12.1973 13.9192C13.5964 12.5201 14.278 10.834 14.278 8.86092C14.278 6.88783 13.5605 5.20174 12.1973 3.80264ZM11.1569 12.8789C10.0448 13.991 8.6816 14.5649 7.10313 14.5649C5.52465 14.5649 4.16143 13.991 3.04932 12.8789C1.93722 11.7667 1.36323 10.4035 1.36323 8.82505C1.36323 7.24658 1.93722 5.88335 3.04932 4.77125C4.16143 3.65914 5.52465 3.08515 7.10313 3.08515C8.6816 3.08515 10.0448 3.65914 11.1569 4.77125C12.269 5.88335 12.843 7.24658 12.843 8.82505C12.843 10.4394 12.269 11.7667 11.1569 12.8789Z" fill="currentColor" />
                                                         </svg>
-                                                        Many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</li>
+                                                        Many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.
+                                                    </li>
                                                     <li>
                                                         <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                            <path d="M15.6776 0L16.0005 0.466368C14.6373 1.50672 13.0947 3.0852 11.4086 5.27353C9.7225 7.42599 8.43102 9.43496 7.53416 11.3363L6.81667 11.8027C6.20681 12.1973 5.81219 12.5202 5.59695 12.7354C5.5252 12.4484 5.34583 11.9462 5.05883 11.2646L4.77183 10.6188C4.37722 9.72195 4.01847 9.04034 3.6956 8.60985C3.37273 8.17935 2.97811 7.89236 2.5835 7.74886C3.26511 7.03138 3.91085 6.63676 4.48484 6.63676C4.98708 6.63676 5.5252 7.31837 6.13506 8.64572L6.42206 9.32733C7.49829 7.49774 8.89739 5.70403 10.6194 3.98206C12.3772 2.26009 14.0633 0.932733 15.6776 0Z" fill="currentColor"/>
-                                                            <path d="M12.1973 3.80264C10.7982 2.40354 9.11209 1.72192 7.139 1.72192C5.16591 1.72192 3.47981 2.40354 2.08071 3.80264C0.681614 5.20174 0 6.88783 0 8.86092C0 10.834 0.681614 12.5201 2.08071 13.9192C3.47981 15.3183 5.16591 15.9999 7.139 15.9999C9.11209 15.9999 10.7982 15.3183 12.1973 13.9192C13.5964 12.5201 14.278 10.834 14.278 8.86092C14.278 6.88783 13.5605 5.20174 12.1973 3.80264ZM11.1569 12.8789C10.0448 13.991 8.6816 14.5649 7.10313 14.5649C5.52465 14.5649 4.16143 13.991 3.04932 12.8789C1.93722 11.7667 1.36323 10.4035 1.36323 8.82505C1.36323 7.24658 1.93722 5.88335 3.04932 4.77125C4.16143 3.65914 5.52465 3.08515 7.10313 3.08515C8.6816 3.08515 10.0448 3.65914 11.1569 4.77125C12.269 5.88335 12.843 7.24658 12.843 8.82505C12.843 10.4394 12.269 11.7667 11.1569 12.8789Z" fill="currentColor"/>
+                                                            <path d="M15.6776 0L16.0005 0.466368C14.6373 1.50672 13.0947 3.0852 11.4086 5.27353C9.7225 7.42599 8.43102 9.43496 7.53416 11.3363L6.81667 11.8027C6.20681 12.1973 5.81219 12.5202 5.59695 12.7354C5.5252 12.4484 5.34583 11.9462 5.05883 11.2646L4.77183 10.6188C4.37722 9.72195 4.01847 9.04034 3.6956 8.60985C3.37273 8.17935 2.97811 7.89236 2.5835 7.74886C3.26511 7.03138 3.91085 6.63676 4.48484 6.63676C4.98708 6.63676 5.5252 7.31837 6.13506 8.64572L6.42206 9.32733C7.49829 7.49774 8.89739 5.70403 10.6194 3.98206C12.3772 2.26009 14.0633 0.932733 15.6776 0Z" fill="currentColor" />
+                                                            <path d="M12.1973 3.80264C10.7982 2.40354 9.11209 1.72192 7.139 1.72192C5.16591 1.72192 3.47981 2.40354 2.08071 3.80264C0.681614 5.20174 0 6.88783 0 8.86092C0 10.834 0.681614 12.5201 2.08071 13.9192C3.47981 15.3183 5.16591 15.9999 7.139 15.9999C9.11209 15.9999 10.7982 15.3183 12.1973 13.9192C13.5964 12.5201 14.278 10.834 14.278 8.86092C14.278 6.88783 13.5605 5.20174 12.1973 3.80264ZM11.1569 12.8789C10.0448 13.991 8.6816 14.5649 7.10313 14.5649C5.52465 14.5649 4.16143 13.991 3.04932 12.8789C1.93722 11.7667 1.36323 10.4035 1.36323 8.82505C1.36323 7.24658 1.93722 5.88335 3.04932 4.77125C4.16143 3.65914 5.52465 3.08515 7.10313 3.08515C8.6816 3.08515 10.0448 3.65914 11.1569 4.77125C12.269 5.88335 12.843 7.24658 12.843 8.82505C12.843 10.4394 12.269 11.7667 11.1569 12.8789Z" fill="currentColor" />
                                                         </svg>
-                                                        Variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</li>
+                                                        Variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.
+                                                    </li>
                                                     <li>
                                                         <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                            <path d="M15.6776 0L16.0005 0.466368C14.6373 1.50672 13.0947 3.0852 11.4086 5.27353C9.7225 7.42599 8.43102 9.43496 7.53416 11.3363L6.81667 11.8027C6.20681 12.1973 5.81219 12.5202 5.59695 12.7354C5.5252 12.4484 5.34583 11.9462 5.05883 11.2646L4.77183 10.6188C4.37722 9.72195 4.01847 9.04034 3.6956 8.60985C3.37273 8.17935 2.97811 7.89236 2.5835 7.74886C3.26511 7.03138 3.91085 6.63676 4.48484 6.63676C4.98708 6.63676 5.5252 7.31837 6.13506 8.64572L6.42206 9.32733C7.49829 7.49774 8.89739 5.70403 10.6194 3.98206C12.3772 2.26009 14.0633 0.932733 15.6776 0Z" fill="currentColor"/>
-                                                            <path d="M12.1973 3.80264C10.7982 2.40354 9.11209 1.72192 7.139 1.72192C5.16591 1.72192 3.47981 2.40354 2.08071 3.80264C0.681614 5.20174 0 6.88783 0 8.86092C0 10.834 0.681614 12.5201 2.08071 13.9192C3.47981 15.3183 5.16591 15.9999 7.139 15.9999C9.11209 15.9999 10.7982 15.3183 12.1973 13.9192C13.5964 12.5201 14.278 10.834 14.278 8.86092C14.278 6.88783 13.5605 5.20174 12.1973 3.80264ZM11.1569 12.8789C10.0448 13.991 8.6816 14.5649 7.10313 14.5649C5.52465 14.5649 4.16143 13.991 3.04932 12.8789C1.93722 11.7667 1.36323 10.4035 1.36323 8.82505C1.36323 7.24658 1.93722 5.88335 3.04932 4.77125C4.16143 3.65914 5.52465 3.08515 7.10313 3.08515C8.6816 3.08515 10.0448 3.65914 11.1569 4.77125C12.269 5.88335 12.843 7.24658 12.843 8.82505C12.843 10.4394 12.269 11.7667 11.1569 12.8789Z" fill="currentColor"/>
+                                                            <path d="M15.6776 0L16.0005 0.466368C14.6373 1.50672 13.0947 3.0852 11.4086 5.27353C9.7225 7.42599 8.43102 9.43496 7.53416 11.3363L6.81667 11.8027C6.20681 12.1973 5.81219 12.5202 5.59695 12.7354C5.5252 12.4484 5.34583 11.9462 5.05883 11.2646L4.77183 10.6188C4.37722 9.72195 4.01847 9.04034 3.6956 8.60985C3.37273 8.17935 2.97811 7.89236 2.5835 7.74886C3.26511 7.03138 3.91085 6.63676 4.48484 6.63676C4.98708 6.63676 5.5252 7.31837 6.13506 8.64572L6.42206 9.32733C7.49829 7.49774 8.89739 5.70403 10.6194 3.98206C12.3772 2.26009 14.0633 0.932733 15.6776 0Z" fill="currentColor" />
+                                                            <path d="M12.1973 3.80264C10.7982 2.40354 9.11209 1.72192 7.139 1.72192C5.16591 1.72192 3.47981 2.40354 2.08071 3.80264C0.681614 5.20174 0 6.88783 0 8.86092C0 10.834 0.681614 12.5201 2.08071 13.9192C3.47981 15.3183 5.16591 15.9999 7.139 15.9999C9.11209 15.9999 10.7982 15.3183 12.1973 13.9192C13.5964 12.5201 14.278 10.834 14.278 8.86092C14.278 6.88783 13.5605 5.20174 12.1973 3.80264ZM11.1569 12.8789C10.0448 13.991 8.6816 14.5649 7.10313 14.5649C5.52465 14.5649 4.16143 13.991 3.04932 12.8789C1.93722 11.7667 1.36323 10.4035 1.36323 8.82505C1.36323 7.24658 1.93722 5.88335 3.04932 4.77125C4.16143 3.65914 5.52465 3.08515 7.10313 3.08515C8.6816 3.08515 10.0448 3.65914 11.1569 4.77125C12.269 5.88335 12.843 7.24658 12.843 8.82505C12.843 10.4394 12.269 11.7667 11.1569 12.8789Z" fill="currentColor" />
                                                         </svg>
-                                                        Eore variations of passages of Lorem Ipsum available, but the majority have.</li>
+                                                        Eore variations of passages of Lorem Ipsum available, but the majority have.
+                                                    </li>
                                                 </ul>
                                                 <p class="shop_details-description-text mb-0 tp_fade_bottom">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.All the Lorem Ipsum generators All the Lorem Ipsum generators on the Internet.</p>
                                             </div>
@@ -291,7 +292,7 @@
                                                                 </div>
                                                                 <div class="shop_details-review-content">
                                                                     <div class="shop_details-review-content-top">
-                                                                        <h6>Junayed  McKenzie</h6>
+                                                                        <h6>Junayed McKenzie</h6>
                                                                         <span>May 8, 2023</span>
                                                                     </div>
                                                                     <ul class="shop_details-review-content-rating">
@@ -325,11 +326,11 @@
                                                             </div>
                                                             <div class="pagination-area pt-25 d-flex justify-content-end">
                                                                 <span><i class="fa-light fa-arrow-left"></i></span>
-                                                                    <ul>
-                                                                        <li><a href="#" class="active">01</a></li>
-                                                                        <li><a href="#">02</a></li>
-                                                                        <li><a href="#">03</a></li>
-                                                                    </ul>
+                                                                <ul>
+                                                                    <li><a href="#" class="active">01</a></li>
+                                                                    <li><a href="#">02</a></li>
+                                                                    <li><a href="#">03</a></li>
+                                                                </ul>
                                                                 <span><i class="fa-light fa-arrow-right"></i></span>
                                                             </div>
                                                         </div>
@@ -368,14 +369,14 @@
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>  
-                                </div>                   
-                            </div>                   
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </section>
                     <!-- shop details area end -->
                 </main>
-            
+
                 <!-- footer area start -->
                 <?php include './partials/footer.php' ?>
                 <!-- footer area end -->
@@ -387,5 +388,6 @@
 
     <!-- jQuery Js -->
     <?php include './partials/script.php' ?>
-  </body>
+</body>
+
 </html>

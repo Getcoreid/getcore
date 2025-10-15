@@ -23,6 +23,23 @@
             <div class="body-wrapper">
 
                 <header class="header-area">
+                    <style>
+                    /* Landing page nav - slightly reduced per request */
+                    @media (min-width: 992px) {
+                        .header-area .header-menu .header-nav-menu ul>li>a {
+                            font-size: 16px;
+                            font-weight: 600;
+                            letter-spacing: 0.2px;
+                        }
+                    }
+
+                    @media (max-width: 991px) and (min-width: 576px) {
+                        .header-area .header-menu .header-nav-menu ul>li>a {
+                            font-size: 15px;
+                            font-weight: 600;
+                        }
+                    }
+                    </style>
                     <div class="header-top d-none d-md-flex">
                         <div class="container custom-container-1">
                             <div class="row">
@@ -53,35 +70,10 @@
                                                 <li class="">
                                                     <a href="index.php">Home</a>
                                                 </li>
-                                                <li><a href="about.php">Tentang CORE</a></li>
-                                                <li class="menu-has-child">
-                                                    <a href="#">Layanan AI</a>
-                                                    <ul class="submenu">
-                                                        <li><a href="service.php">Otomasi UMKM</a></li>
-                                                        <li><a href="team.php">AI Chatbot</a></li>
-                                                        <li><a href="work.php">Mechine Learning</a></li>
-                                                        <li><a href="price.php">AI Analytics</a></li>
-                                                        <li><a href="faq.php">Smart Automation</a></li>
-
-                                                    </ul>
-                                                </li>
-                                                <li class="menu-has-child">
-                                                    <a href="shop.php">Solusi</a>
-                                                    <ul class="submenu">
-                                                        <li><a href="shop.php">Portofolio</a></li>
-                                                        <li><a href="shop-details.php">Harga</a></li>
-                                                        <li><a href="shop-details.php">FAQ</a></li>
-                                                        <li><a href="shop-details.php">Testimoni</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li class="menu-has-child">
-                                                    <a href="blog.php">Blog</a>
-                                                    <ul class="submenu">
-                                                        <li><a href="blog.php">Artikel AI</a></li>
-                                                        <li><a href="blog-details.php">Tutorial</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li><a href="contact.php">Kontak</a></li>
+                                                <li><a href="about.php">About CORE</a></li>
+                                                <li><a href="shop.php">Shop</a></li>
+                                                <li><a href="blog.php">Blog</a></li>
+                                                <li><a href="contact.php">Contact</a></li>
                                             </ul>
                                         </nav>
                                     </div>

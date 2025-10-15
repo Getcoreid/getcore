@@ -1,0 +1,14 @@
+assets/images/about/home2/bg-22.png
+assets/images/banner/home1/star.png
+assets/images/brand/home4_brand-bg.png
+assets/images/brand/larkk.png
+assets/images/country/aus.png
+assets/images/country/canada.png
+assets/images/country/germany.png
+assets/images/country/ind.png
+assets/images/country/iran.png
+assets/images/country/map.png
+assets/images/country/rusia.png
+assets/images/country/usa.png
+assets/images/favicon.png
+assets/images/logo/logo.png

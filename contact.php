@@ -39,18 +39,17 @@
                                 <div class="col-xl-6 col-lg-5 d-none d-lg-block">
                                     <div class="h5_header-top-right">
                                         <div class="h5_header-top-language">
-                                            <select name="select" class="h5_header-top-language-option has-nice-select">
-                                                <option value="1">English</option>
-                                                <option value="2">Bangla</option>
-                                                <option value="3">Arabic</option>
-                                                <option value="4">Urdu</option>
+                                            <select name="language"
+                                                class="h5_header-top-language-option has-nice-select">
+                                                <option value="id" selected>Indonesian</option>
+                                                <option value="en">English</option>
                                             </select>
                                         </div>
                                         <div class="h5_header-top-currency">
-                                            <select name="select" class="h5_header-top-currency-option has-nice-select">
-                                                <option value="1">$USD</option>
-                                                <option value="2">৳Taka</option>
-                                                <option value="3">€Euro</option>
+                                            <select name="currency"
+                                                class="h5_header-top-currency-option has-nice-select">
+                                                <option value="idr" selected>IDR</option>
+                                                <option value="usd">$USD</option>
                                             </select>
                                         </div>
                                         <div class="h5_header-top-account">
@@ -79,7 +78,7 @@
                             <div class="row align-items-center justify-content-between">
                                 <div class="col-xl-2 col-lg-2 col-4">
                                     <div class="h5_header-logo">
-                                        <a href="index.php"><img src="assets/images/logo/logo.png"
+                                        <a href="index.php"><img src="assets/images/logo/logo-core.png"
                                                 alt="Image Not Found"></a>
                                     </div>
                                 </div>
@@ -87,47 +86,10 @@
                                     <div class="h5_header-menu ">
                                         <nav class="h5_header-nav-menu" id="mobile-menu">
                                             <ul>
-                                                <li class="menu-has-child">
-                                                    <a href="index.php">Home</a>
-                                                    <ul class="submenu">
-                                                        <li><a href="index.php">AI Doodle</a></li>
-                                                        <li><a href="index-2.php">AI Co-Pilot</a></li>
-                                                        <li><a href="index-3.php">AI Image Generator</a></li>
-                                                        <li><a href="index-4.php">AI Text Generator</a></li>
-                                                        <li><a href="index-5.php">AI Photostock</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li><a href="about.php">About</a></li>
-                                                <li class="menu-has-child">
-                                                    <a href="#">Pages</a>
-                                                    <ul class="submenu">
-                                                        <li><a href="service.php">Services</a></li>
-                                                        <li><a href="team.php">Team</a></li>
-                                                        <li><a href="work.php">Portfolio</a></li>
-                                                        <li><a href="price.php">Pricing</a></li>
-                                                        <li><a href="faq.php">FAQ's</a></li>
-                                                        <li><a href="testimonial.php">Testimonials</a></li>
-                                                        <li><a href="wishlist.php">Wishlist</a></li>
-                                                        <li><a href="cart.php">Cart</a></li>
-                                                        <li><a href="checkout.php">Checkout</a></li>
-                                                        <li><a href="login.php">Login</a></li>
-                                                        <li><a href="404.php">404</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li class="menu-has-child">
-                                                    <a href="shop.php">Shop</a>
-                                                    <ul class="submenu">
-                                                        <li><a href="shop.php">Shop</a></li>
-                                                        <li><a href="shop-details.php">Shop Details</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li class="menu-has-child">
-                                                    <a href="blog.php">Blog</a>
-                                                    <ul class="submenu">
-                                                        <li><a href="blog.php">Blog</a></li>
-                                                        <li><a href="blog-details.php">Blog Details</a></li>
-                                                    </ul>
-                                                </li>
+                                                <li><a href="index.php">Home</a></li>
+                                                <li><a href="about.php">About CORE</a></li>
+                                                <li><a href="shop.php">Shop</a></li>
+                                                <li><a href="blog.php">Blog</a></li>
                                                 <li><a href="contact.php">Contact</a></li>
                                             </ul>
                                         </nav>
@@ -160,7 +122,7 @@
                 </header>
 
                 <main>
-                    <?php $subTitle='Contacts' ?>
+                    <?php $subTitle = 'Contacts' ?>
                     <!-- breadcrumb area start -->
                     <?php include './partials/breadcrumb.php' ?>
                     <!-- breadcrumb area end -->
@@ -200,7 +162,7 @@
                                         <div class="contact-icon"><i class="fa-solid fa-phone"></i></div>
                                         <div class="contact-content">
                                             <h4 class="contact-content-title">Give us a call</h4>
-                                            <a href="tel:+628132551155">+628132551155</a><br>
+                                            <a href="tel:+628132551155">+62 813-255-1155</a><br>
                                         </div>
                                     </div>
                                 </div>
@@ -233,9 +195,14 @@
                                             </div>
                                             <div class="contact-map tp_fade_right">
                                                 <iframe
-                                                    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14599.593481274613!2d90.42342665!3d23.8222127!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1701453167946!5m2!1sen!2sbd"
+                                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3950.123456789012!2d110.3600000!3d-7.7890000!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a57b5d6abcdef%3A0x1234567890abcdef!2sJl.%20Polisi%20Istimewa%20No.1a%2C%20Muja%20Muju%2C%20Umbulharjo%2C%20Kota%20Yogyakarta%2C%20Daerah%20Istimewa%20Yogyakarta%2055165!5e0!3m2!1sen!2sid!4v1700000000000!5m2!1sen!2sid"
                                                     width="600" height="450" style="border:0;" allowfullscreen=""
                                                     loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                                <div class="mt-3">
+                                                    <a href="https://www.google.com/maps/search/?api=1&query=Jl.+Polisi+Istimewa+No.1a,+Muja+Muju,+Kec.+Umbulharjo,+Kota+Yogyakarta,+Daerah+Istimewa+Yogyakarta+55165"
+                                                        target="_blank" rel="noopener noreferrer">Buka di Google
+                                                        Maps</a>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>

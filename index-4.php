@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <?php include './partials/head.php' ?>
-  <body>
+
+<body>
 
     <!-- Cursor start -->
     <?php include './partials/Cursor_start.php' ?>
@@ -10,17 +11,17 @@
     <!-- back to top start -->
     <?php include './partials/back_to_start.php' ?>
     <!-- back to top end -->
-  
+
     <!-- sidebar-information-area-start -->
     <?php include './partials/sidebar_information.php' ?>
     <!-- sidebar-information-area-end -->
 
     <div class="has-smooth" id="has_smooth"></div>
-    
+
     <div id="smooth-wrapper">
         <div id="smooth-content">
             <div class="body-wrapper">
-                
+
                 <header class="h4_header-area">
                     <div class="h4_header-top d-none d-sm-block">
                         <div class="container">
@@ -39,7 +40,7 @@
                             <div class="row align-items-center justify-content-between">
                                 <div class="col-xxl-3 col-lg-2 col-4">
                                     <div class="h4_header-logo">
-                                        <a href="index.php"><img src="assets/images/logo/logo.png" alt="Image Not Found"></a>
+                                        <a href="index.php"><img src="assets/images/logo/logo-core.png" alt="Image Not Found"></a>
                                     </div>
                                 </div>
                                 <div class="col-xxl-6 col-lg-7 d-none d-lg-block">
@@ -56,7 +57,7 @@
                                                         <li><a href="index-5.php">AI Photostock</a></li>
                                                     </ul>
                                                 </li>
-                                                <li><a href="about.php">About</a></li>
+                                                <li><a href="about.php">Tentang CORE</a></li>
                                                 <li class="menu-has-child">
                                                     <a href="#">Pages</a>
                                                     <ul class="submenu">
@@ -97,13 +98,13 @@
                                         <div class="h4_header-action d-none d-sm-flex">
                                             <a href="#" class="h4_header-action-login">
                                                 <svg width="14" height="16" viewBox="0 0 14 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M7.01172 8C8.94472 8 10.5117 6.433 10.5117 4.5C10.5117 2.567 8.94472 1 7.01172 1C5.07872 1 3.51172 2.567 3.51172 4.5C3.51172 6.433 5.07872 8 7.01172 8Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                                                    <path d="M13.026 15C13.026 12.291 10.331 10.1 7.013 10.1C3.695 10.1 1 12.291 1 15" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                    <path d="M7.01172 8C8.94472 8 10.5117 6.433 10.5117 4.5C10.5117 2.567 8.94472 1 7.01172 1C5.07872 1 3.51172 2.567 3.51172 4.5C3.51172 6.433 5.07872 8 7.01172 8Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                                    <path d="M13.026 15C13.026 12.291 10.331 10.1 7.013 10.1C3.695 10.1 1 12.291 1 15" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                                                 </svg>
-                                                Sing in                                           
+                                                Sing in
                                             </a>
                                             <a href="#" class="h4_header-action-btn">
-                                                Join AI<i class="fa-light fa-angle-right"></i>                                     
+                                                Join AI<i class="fa-light fa-angle-right"></i>
                                             </a>
                                         </div>
                                         <div class="header-menu-bar d-lg-none ml-10">
@@ -144,8 +145,8 @@
                                                     </select>
                                                     <button type="submit">
                                                         <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                            <path d="M8.60317 6.1462C8.22549 6.65078 7.86019 7.13949 7.49489 7.62771C7.45028 7.68719 7.40667 7.74716 7.35809 7.80367C7.25153 7.92808 7.11522 7.9712 6.95711 7.93006C6.80742 7.8909 6.71226 7.79029 6.68847 7.63862C6.65278 7.41061 6.62651 7.18162 6.59826 6.95263C6.54175 6.49614 6.48723 6.03914 6.43023 5.56877C6.11599 5.52813 5.81513 5.48748 5.51427 5.4518C5.17871 5.41165 4.84216 5.37745 4.5066 5.33829C4.44118 5.33086 4.37476 5.31946 4.3128 5.29814C4.04366 5.20595 3.96089 4.88526 4.15568 4.67659C4.22259 4.60522 4.30686 4.54921 4.38616 4.48973C4.86744 4.1284 5.34971 3.76806 5.84784 3.39583C5.74425 3.14899 5.64462 2.90761 5.54202 2.66722C5.38639 2.30341 5.23026 1.9396 5.07165 1.57728C4.99284 1.39686 4.97499 1.22536 5.12766 1.07518C5.28081 0.924007 5.45429 0.949781 5.63223 1.02611C6.14721 1.24767 6.6622 1.46873 7.17768 1.6893C7.25995 1.72449 7.34322 1.7567 7.44384 1.79735C7.52166 1.69425 7.59551 1.5971 7.66887 1.49896C7.9955 1.06279 8.32115 0.62612 8.64828 0.190937C8.75484 0.0486844 8.88817 -0.0340897 9.07454 0.013493C9.25892 0.0600844 9.3412 0.193911 9.3749 0.367885C9.37788 0.384241 9.38036 0.400598 9.38234 0.416954C9.45123 1.00678 9.52558 1.59562 9.58506 2.18594C9.60043 2.33959 9.65098 2.3956 9.80761 2.41146C10.3984 2.46995 10.9873 2.5433 11.5766 2.61418C11.7684 2.63698 11.927 2.71133 11.982 2.91951C12.0346 3.11826 11.9364 3.25159 11.7882 3.36262C11.3258 3.70908 10.8633 4.05505 10.4009 4.40151C10.336 4.45008 10.273 4.50113 10.1982 4.55962C10.3142 4.83372 10.4252 5.09839 10.5382 5.36258C10.674 5.68079 10.8088 5.99999 10.9491 6.31671C11.0334 6.50704 11.0913 6.6944 10.9228 6.86688C10.7548 7.03937 10.5714 6.9903 10.3766 6.90505C9.79522 6.65028 9.20985 6.40494 8.60367 6.1462H8.60317Z" fill="currentColor"/>
-                                                            <path d="M5.88247 7.00379C5.93302 7.12274 5.85372 7.21791 5.7531 7.31803C4.26218 8.80499 2.77373 10.2954 1.2838 11.7839C0.992359 12.0748 0.829289 12.0718 0.532393 11.7769C0.397576 11.6431 0.259289 11.5127 0.130915 11.3725C-0.0440505 11.1811 -0.0420679 10.9918 0.127445 10.7985C0.165611 10.7549 0.208237 10.7157 0.249376 10.6751C1.71502 9.20944 3.18265 7.74528 4.64383 6.27518C4.77221 6.14581 4.89166 6.08187 5.07555 6.11954C5.25249 6.15572 5.43539 6.16613 5.6163 6.18001C5.74666 6.18993 5.80564 6.25287 5.81555 6.38224C5.83092 6.57951 5.85719 6.77579 5.88197 7.00379H5.88247Z" fill="currentColor"/>
+                                                            <path d="M8.60317 6.1462C8.22549 6.65078 7.86019 7.13949 7.49489 7.62771C7.45028 7.68719 7.40667 7.74716 7.35809 7.80367C7.25153 7.92808 7.11522 7.9712 6.95711 7.93006C6.80742 7.8909 6.71226 7.79029 6.68847 7.63862C6.65278 7.41061 6.62651 7.18162 6.59826 6.95263C6.54175 6.49614 6.48723 6.03914 6.43023 5.56877C6.11599 5.52813 5.81513 5.48748 5.51427 5.4518C5.17871 5.41165 4.84216 5.37745 4.5066 5.33829C4.44118 5.33086 4.37476 5.31946 4.3128 5.29814C4.04366 5.20595 3.96089 4.88526 4.15568 4.67659C4.22259 4.60522 4.30686 4.54921 4.38616 4.48973C4.86744 4.1284 5.34971 3.76806 5.84784 3.39583C5.74425 3.14899 5.64462 2.90761 5.54202 2.66722C5.38639 2.30341 5.23026 1.9396 5.07165 1.57728C4.99284 1.39686 4.97499 1.22536 5.12766 1.07518C5.28081 0.924007 5.45429 0.949781 5.63223 1.02611C6.14721 1.24767 6.6622 1.46873 7.17768 1.6893C7.25995 1.72449 7.34322 1.7567 7.44384 1.79735C7.52166 1.69425 7.59551 1.5971 7.66887 1.49896C7.9955 1.06279 8.32115 0.62612 8.64828 0.190937C8.75484 0.0486844 8.88817 -0.0340897 9.07454 0.013493C9.25892 0.0600844 9.3412 0.193911 9.3749 0.367885C9.37788 0.384241 9.38036 0.400598 9.38234 0.416954C9.45123 1.00678 9.52558 1.59562 9.58506 2.18594C9.60043 2.33959 9.65098 2.3956 9.80761 2.41146C10.3984 2.46995 10.9873 2.5433 11.5766 2.61418C11.7684 2.63698 11.927 2.71133 11.982 2.91951C12.0346 3.11826 11.9364 3.25159 11.7882 3.36262C11.3258 3.70908 10.8633 4.05505 10.4009 4.40151C10.336 4.45008 10.273 4.50113 10.1982 4.55962C10.3142 4.83372 10.4252 5.09839 10.5382 5.36258C10.674 5.68079 10.8088 5.99999 10.9491 6.31671C11.0334 6.50704 11.0913 6.6944 10.9228 6.86688C10.7548 7.03937 10.5714 6.9903 10.3766 6.90505C9.79522 6.65028 9.20985 6.40494 8.60367 6.1462H8.60317Z" fill="currentColor" />
+                                                            <path d="M5.88247 7.00379C5.93302 7.12274 5.85372 7.21791 5.7531 7.31803C4.26218 8.80499 2.77373 10.2954 1.2838 11.7839C0.992359 12.0748 0.829289 12.0718 0.532393 11.7769C0.397576 11.6431 0.259289 11.5127 0.130915 11.3725C-0.0440505 11.1811 -0.0420679 10.9918 0.127445 10.7985C0.165611 10.7549 0.208237 10.7157 0.249376 10.6751C1.71502 9.20944 3.18265 7.74528 4.64383 6.27518C4.77221 6.14581 4.89166 6.08187 5.07555 6.11954C5.25249 6.15572 5.43539 6.16613 5.6163 6.18001C5.74666 6.18993 5.80564 6.25287 5.81555 6.38224C5.83092 6.57951 5.85719 6.77579 5.88197 7.00379H5.88247Z" fill="currentColor" />
                                                         </svg>
                                                         Generate
                                                     </button>
@@ -285,7 +286,7 @@
                                                 <div class="h4_assistant-content">
                                                     <h3 class="h4_assistant-content-title tp_has_text_reveal_anim">DataPulse Tracking Analytics
                                                         For Informed Decisions.</h3>
-                                                    <p class="tp_fade_bottom">Duis fermentum molestee bandit Phaseolus ut  qualm egret protium Quique in qualm eu sem molestee uptraces Sed vitae Purus denim. Nunc getas locus meatus ramet sem.</p>
+                                                    <p class="tp_fade_bottom">Duis fermentum molestee bandit Phaseolus ut qualm egret protium Quique in qualm eu sem molestee uptraces Sed vitae Purus denim. Nunc getas locus meatus ramet sem.</p>
                                                     <a href="#" class="tp_fade_bottom"><img src="assets/images/assistant/home4/search.png" alt="">Get Started<i class="fa-light fa-angle-right"></i></a>
                                                 </div>
                                             </div>
@@ -293,7 +294,7 @@
                                                 <div class="h4_assistant-content">
                                                     <h3 class="h4_assistant-content-title tp_has_text_reveal_anim">DataPulse Tracking Analytics
                                                         For Informed Decisions.</h3>
-                                                    <p class="tp_fade_bottom">Duis fermentum molestee bandit Phaseolus ut  qualm egret protium Quique in qualm eu sem molestee uptraces Sed vitae Purus denim. Nunc getas locus meatus ramet sem.</p>
+                                                    <p class="tp_fade_bottom">Duis fermentum molestee bandit Phaseolus ut qualm egret protium Quique in qualm eu sem molestee uptraces Sed vitae Purus denim. Nunc getas locus meatus ramet sem.</p>
                                                     <a href="#" class="tp_fade_bottom"><img src="assets/images/assistant/home4/search.png" alt="">Get Started<i class="fa-light fa-angle-right"></i></a>
                                                 </div>
                                             </div>
@@ -301,7 +302,7 @@
                                                 <div class="h4_assistant-content">
                                                     <h3 class="h4_assistant-content-title tp_has_text_reveal_anim">DataPulse Tracking Analytics
                                                         For Informed Decisions.</h3>
-                                                    <p class="tp_fade_bottom">Duis fermentum molestee bandit Phaseolus ut  qualm egret protium Quique in qualm eu sem molestee uptraces Sed vitae Purus denim. Nunc getas locus meatus ramet sem.</p>
+                                                    <p class="tp_fade_bottom">Duis fermentum molestee bandit Phaseolus ut qualm egret protium Quique in qualm eu sem molestee uptraces Sed vitae Purus denim. Nunc getas locus meatus ramet sem.</p>
                                                     <a href="#" class="tp_fade_bottom"><img src="assets/images/assistant/home4/search.png" alt="">Get Started<i class="fa-light fa-angle-right"></i></a>
                                                 </div>
                                             </div>
@@ -450,7 +451,7 @@
                                                 </ul>
                                                 <div class="h4_testimonial-icon">
                                                     <svg width="15" height="12" viewBox="0 0 15 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                        <path d="M1.49014 10.9091C2.041 10.3704 2.55055 9.72391 3.01878 8.9697C3.45947 8.21549 3.74867 7.46128 3.88638 6.70707C2.86729 6.70707 2.02723 6.42424 1.3662 5.85859C0.67762 5.29293 0.333332 4.49832 0.333332 3.47475C0.333332 2.47811 0.650078 1.6431 1.28357 0.969695C1.88951 0.323231 2.68826 0 3.67981 0C4.67136 0 5.48388 0.336699 6.11737 1.0101C6.72332 1.71044 7.02629 2.55892 7.02629 3.55555C7.02629 5.22559 6.61314 6.82828 5.78685 8.36364C4.96056 9.92593 3.91393 11.138 2.64695 12L1.49014 10.9091ZM9.46385 10.9091C10.0147 10.3704 10.5243 9.72391 10.9925 8.9697C11.4332 8.21549 11.7224 7.46128 11.8601 6.70707C10.841 6.70707 10.0009 6.42424 9.33991 5.85859C8.65133 5.29293 8.30704 4.49832 8.30704 3.47475C8.30704 2.47811 8.62379 1.6431 9.25728 0.969695C9.86322 0.323231 10.662 0 11.6535 0C12.6451 0 13.4576 0.336699 14.0911 1.0101C14.697 1.71044 15 2.55892 15 3.55555C15 5.22559 14.5869 6.82828 13.7606 8.36364C12.9343 9.92593 11.8876 11.138 10.6207 12L9.46385 10.9091Z" fill="currentColor" fill-opacity="1"/>
+                                                        <path d="M1.49014 10.9091C2.041 10.3704 2.55055 9.72391 3.01878 8.9697C3.45947 8.21549 3.74867 7.46128 3.88638 6.70707C2.86729 6.70707 2.02723 6.42424 1.3662 5.85859C0.67762 5.29293 0.333332 4.49832 0.333332 3.47475C0.333332 2.47811 0.650078 1.6431 1.28357 0.969695C1.88951 0.323231 2.68826 0 3.67981 0C4.67136 0 5.48388 0.336699 6.11737 1.0101C6.72332 1.71044 7.02629 2.55892 7.02629 3.55555C7.02629 5.22559 6.61314 6.82828 5.78685 8.36364C4.96056 9.92593 3.91393 11.138 2.64695 12L1.49014 10.9091ZM9.46385 10.9091C10.0147 10.3704 10.5243 9.72391 10.9925 8.9697C11.4332 8.21549 11.7224 7.46128 11.8601 6.70707C10.841 6.70707 10.0009 6.42424 9.33991 5.85859C8.65133 5.29293 8.30704 4.49832 8.30704 3.47475C8.30704 2.47811 8.62379 1.6431 9.25728 0.969695C9.86322 0.323231 10.662 0 11.6535 0C12.6451 0 13.4576 0.336699 14.0911 1.0101C14.697 1.71044 15 2.55892 15 3.55555C15 5.22559 14.5869 6.82828 13.7606 8.36364C12.9343 9.92593 11.8876 11.138 10.6207 12L9.46385 10.9091Z" fill="currentColor" fill-opacity="1" />
                                                     </svg>
                                                 </div>
                                                 <p>Maecenas eget ullamcorper dolor placerat ipsum. Aliquam dictum massa eu libero vehicula, id dapibus ligula vulputate. Donec arcu elit, pulvinar quis orci ut, tincidunt justo consectetur .</p>
@@ -478,7 +479,7 @@
                                                 </ul>
                                                 <div class="h4_testimonial-icon">
                                                     <svg width="15" height="12" viewBox="0 0 15 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                        <path d="M1.49014 10.9091C2.041 10.3704 2.55055 9.72391 3.01878 8.9697C3.45947 8.21549 3.74867 7.46128 3.88638 6.70707C2.86729 6.70707 2.02723 6.42424 1.3662 5.85859C0.67762 5.29293 0.333332 4.49832 0.333332 3.47475C0.333332 2.47811 0.650078 1.6431 1.28357 0.969695C1.88951 0.323231 2.68826 0 3.67981 0C4.67136 0 5.48388 0.336699 6.11737 1.0101C6.72332 1.71044 7.02629 2.55892 7.02629 3.55555C7.02629 5.22559 6.61314 6.82828 5.78685 8.36364C4.96056 9.92593 3.91393 11.138 2.64695 12L1.49014 10.9091ZM9.46385 10.9091C10.0147 10.3704 10.5243 9.72391 10.9925 8.9697C11.4332 8.21549 11.7224 7.46128 11.8601 6.70707C10.841 6.70707 10.0009 6.42424 9.33991 5.85859C8.65133 5.29293 8.30704 4.49832 8.30704 3.47475C8.30704 2.47811 8.62379 1.6431 9.25728 0.969695C9.86322 0.323231 10.662 0 11.6535 0C12.6451 0 13.4576 0.336699 14.0911 1.0101C14.697 1.71044 15 2.55892 15 3.55555C15 5.22559 14.5869 6.82828 13.7606 8.36364C12.9343 9.92593 11.8876 11.138 10.6207 12L9.46385 10.9091Z" fill="currentColor" fill-opacity="1"/>
+                                                        <path d="M1.49014 10.9091C2.041 10.3704 2.55055 9.72391 3.01878 8.9697C3.45947 8.21549 3.74867 7.46128 3.88638 6.70707C2.86729 6.70707 2.02723 6.42424 1.3662 5.85859C0.67762 5.29293 0.333332 4.49832 0.333332 3.47475C0.333332 2.47811 0.650078 1.6431 1.28357 0.969695C1.88951 0.323231 2.68826 0 3.67981 0C4.67136 0 5.48388 0.336699 6.11737 1.0101C6.72332 1.71044 7.02629 2.55892 7.02629 3.55555C7.02629 5.22559 6.61314 6.82828 5.78685 8.36364C4.96056 9.92593 3.91393 11.138 2.64695 12L1.49014 10.9091ZM9.46385 10.9091C10.0147 10.3704 10.5243 9.72391 10.9925 8.9697C11.4332 8.21549 11.7224 7.46128 11.8601 6.70707C10.841 6.70707 10.0009 6.42424 9.33991 5.85859C8.65133 5.29293 8.30704 4.49832 8.30704 3.47475C8.30704 2.47811 8.62379 1.6431 9.25728 0.969695C9.86322 0.323231 10.662 0 11.6535 0C12.6451 0 13.4576 0.336699 14.0911 1.0101C14.697 1.71044 15 2.55892 15 3.55555C15 5.22559 14.5869 6.82828 13.7606 8.36364C12.9343 9.92593 11.8876 11.138 10.6207 12L9.46385 10.9091Z" fill="currentColor" fill-opacity="1" />
                                                     </svg>
                                                 </div>
                                                 <p>Maecenas eget ullamcorper dolor placerat ipsum. Aliquam dictum massa eu libero vehicula, id dapibus ligula vulputate. Donec arcu elit, pulvinar quis orci ut, tincidunt justo consectetur .</p>
@@ -506,7 +507,7 @@
                                                 </ul>
                                                 <div class="h4_testimonial-icon">
                                                     <svg width="15" height="12" viewBox="0 0 15 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                        <path d="M1.49014 10.9091C2.041 10.3704 2.55055 9.72391 3.01878 8.9697C3.45947 8.21549 3.74867 7.46128 3.88638 6.70707C2.86729 6.70707 2.02723 6.42424 1.3662 5.85859C0.67762 5.29293 0.333332 4.49832 0.333332 3.47475C0.333332 2.47811 0.650078 1.6431 1.28357 0.969695C1.88951 0.323231 2.68826 0 3.67981 0C4.67136 0 5.48388 0.336699 6.11737 1.0101C6.72332 1.71044 7.02629 2.55892 7.02629 3.55555C7.02629 5.22559 6.61314 6.82828 5.78685 8.36364C4.96056 9.92593 3.91393 11.138 2.64695 12L1.49014 10.9091ZM9.46385 10.9091C10.0147 10.3704 10.5243 9.72391 10.9925 8.9697C11.4332 8.21549 11.7224 7.46128 11.8601 6.70707C10.841 6.70707 10.0009 6.42424 9.33991 5.85859C8.65133 5.29293 8.30704 4.49832 8.30704 3.47475C8.30704 2.47811 8.62379 1.6431 9.25728 0.969695C9.86322 0.323231 10.662 0 11.6535 0C12.6451 0 13.4576 0.336699 14.0911 1.0101C14.697 1.71044 15 2.55892 15 3.55555C15 5.22559 14.5869 6.82828 13.7606 8.36364C12.9343 9.92593 11.8876 11.138 10.6207 12L9.46385 10.9091Z" fill="currentColor" fill-opacity="1"/>
+                                                        <path d="M1.49014 10.9091C2.041 10.3704 2.55055 9.72391 3.01878 8.9697C3.45947 8.21549 3.74867 7.46128 3.88638 6.70707C2.86729 6.70707 2.02723 6.42424 1.3662 5.85859C0.67762 5.29293 0.333332 4.49832 0.333332 3.47475C0.333332 2.47811 0.650078 1.6431 1.28357 0.969695C1.88951 0.323231 2.68826 0 3.67981 0C4.67136 0 5.48388 0.336699 6.11737 1.0101C6.72332 1.71044 7.02629 2.55892 7.02629 3.55555C7.02629 5.22559 6.61314 6.82828 5.78685 8.36364C4.96056 9.92593 3.91393 11.138 2.64695 12L1.49014 10.9091ZM9.46385 10.9091C10.0147 10.3704 10.5243 9.72391 10.9925 8.9697C11.4332 8.21549 11.7224 7.46128 11.8601 6.70707C10.841 6.70707 10.0009 6.42424 9.33991 5.85859C8.65133 5.29293 8.30704 4.49832 8.30704 3.47475C8.30704 2.47811 8.62379 1.6431 9.25728 0.969695C9.86322 0.323231 10.662 0 11.6535 0C12.6451 0 13.4576 0.336699 14.0911 1.0101C14.697 1.71044 15 2.55892 15 3.55555C15 5.22559 14.5869 6.82828 13.7606 8.36364C12.9343 9.92593 11.8876 11.138 10.6207 12L9.46385 10.9091Z" fill="currentColor" fill-opacity="1" />
                                                     </svg>
                                                 </div>
                                                 <p>Maecenas eget ullamcorper dolor placerat ipsum. Aliquam dictum massa eu libero vehicula, id dapibus ligula vulputate. Donec arcu elit, pulvinar quis orci ut, tincidunt justo consectetur .</p>
@@ -534,7 +535,7 @@
                                                 </ul>
                                                 <div class="h4_testimonial-icon">
                                                     <svg width="15" height="12" viewBox="0 0 15 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                        <path d="M1.49014 10.9091C2.041 10.3704 2.55055 9.72391 3.01878 8.9697C3.45947 8.21549 3.74867 7.46128 3.88638 6.70707C2.86729 6.70707 2.02723 6.42424 1.3662 5.85859C0.67762 5.29293 0.333332 4.49832 0.333332 3.47475C0.333332 2.47811 0.650078 1.6431 1.28357 0.969695C1.88951 0.323231 2.68826 0 3.67981 0C4.67136 0 5.48388 0.336699 6.11737 1.0101C6.72332 1.71044 7.02629 2.55892 7.02629 3.55555C7.02629 5.22559 6.61314 6.82828 5.78685 8.36364C4.96056 9.92593 3.91393 11.138 2.64695 12L1.49014 10.9091ZM9.46385 10.9091C10.0147 10.3704 10.5243 9.72391 10.9925 8.9697C11.4332 8.21549 11.7224 7.46128 11.8601 6.70707C10.841 6.70707 10.0009 6.42424 9.33991 5.85859C8.65133 5.29293 8.30704 4.49832 8.30704 3.47475C8.30704 2.47811 8.62379 1.6431 9.25728 0.969695C9.86322 0.323231 10.662 0 11.6535 0C12.6451 0 13.4576 0.336699 14.0911 1.0101C14.697 1.71044 15 2.55892 15 3.55555C15 5.22559 14.5869 6.82828 13.7606 8.36364C12.9343 9.92593 11.8876 11.138 10.6207 12L9.46385 10.9091Z" fill="currentColor" fill-opacity="1"/>
+                                                        <path d="M1.49014 10.9091C2.041 10.3704 2.55055 9.72391 3.01878 8.9697C3.45947 8.21549 3.74867 7.46128 3.88638 6.70707C2.86729 6.70707 2.02723 6.42424 1.3662 5.85859C0.67762 5.29293 0.333332 4.49832 0.333332 3.47475C0.333332 2.47811 0.650078 1.6431 1.28357 0.969695C1.88951 0.323231 2.68826 0 3.67981 0C4.67136 0 5.48388 0.336699 6.11737 1.0101C6.72332 1.71044 7.02629 2.55892 7.02629 3.55555C7.02629 5.22559 6.61314 6.82828 5.78685 8.36364C4.96056 9.92593 3.91393 11.138 2.64695 12L1.49014 10.9091ZM9.46385 10.9091C10.0147 10.3704 10.5243 9.72391 10.9925 8.9697C11.4332 8.21549 11.7224 7.46128 11.8601 6.70707C10.841 6.70707 10.0009 6.42424 9.33991 5.85859C8.65133 5.29293 8.30704 4.49832 8.30704 3.47475C8.30704 2.47811 8.62379 1.6431 9.25728 0.969695C9.86322 0.323231 10.662 0 11.6535 0C12.6451 0 13.4576 0.336699 14.0911 1.0101C14.697 1.71044 15 2.55892 15 3.55555C15 5.22559 14.5869 6.82828 13.7606 8.36364C12.9343 9.92593 11.8876 11.138 10.6207 12L9.46385 10.9091Z" fill="currentColor" fill-opacity="1" />
                                                     </svg>
                                                 </div>
                                                 <p>Maecenas eget ullamcorper dolor placerat ipsum. Aliquam dictum massa eu libero vehicula, id dapibus ligula vulputate. Donec arcu elit, pulvinar quis orci ut, tincidunt justo consectetur .</p>
@@ -562,7 +563,7 @@
                                                 </ul>
                                                 <div class="h4_testimonial-icon">
                                                     <svg width="15" height="12" viewBox="0 0 15 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                        <path d="M1.49014 10.9091C2.041 10.3704 2.55055 9.72391 3.01878 8.9697C3.45947 8.21549 3.74867 7.46128 3.88638 6.70707C2.86729 6.70707 2.02723 6.42424 1.3662 5.85859C0.67762 5.29293 0.333332 4.49832 0.333332 3.47475C0.333332 2.47811 0.650078 1.6431 1.28357 0.969695C1.88951 0.323231 2.68826 0 3.67981 0C4.67136 0 5.48388 0.336699 6.11737 1.0101C6.72332 1.71044 7.02629 2.55892 7.02629 3.55555C7.02629 5.22559 6.61314 6.82828 5.78685 8.36364C4.96056 9.92593 3.91393 11.138 2.64695 12L1.49014 10.9091ZM9.46385 10.9091C10.0147 10.3704 10.5243 9.72391 10.9925 8.9697C11.4332 8.21549 11.7224 7.46128 11.8601 6.70707C10.841 6.70707 10.0009 6.42424 9.33991 5.85859C8.65133 5.29293 8.30704 4.49832 8.30704 3.47475C8.30704 2.47811 8.62379 1.6431 9.25728 0.969695C9.86322 0.323231 10.662 0 11.6535 0C12.6451 0 13.4576 0.336699 14.0911 1.0101C14.697 1.71044 15 2.55892 15 3.55555C15 5.22559 14.5869 6.82828 13.7606 8.36364C12.9343 9.92593 11.8876 11.138 10.6207 12L9.46385 10.9091Z" fill="currentColor" fill-opacity="1"/>
+                                                        <path d="M1.49014 10.9091C2.041 10.3704 2.55055 9.72391 3.01878 8.9697C3.45947 8.21549 3.74867 7.46128 3.88638 6.70707C2.86729 6.70707 2.02723 6.42424 1.3662 5.85859C0.67762 5.29293 0.333332 4.49832 0.333332 3.47475C0.333332 2.47811 0.650078 1.6431 1.28357 0.969695C1.88951 0.323231 2.68826 0 3.67981 0C4.67136 0 5.48388 0.336699 6.11737 1.0101C6.72332 1.71044 7.02629 2.55892 7.02629 3.55555C7.02629 5.22559 6.61314 6.82828 5.78685 8.36364C4.96056 9.92593 3.91393 11.138 2.64695 12L1.49014 10.9091ZM9.46385 10.9091C10.0147 10.3704 10.5243 9.72391 10.9925 8.9697C11.4332 8.21549 11.7224 7.46128 11.8601 6.70707C10.841 6.70707 10.0009 6.42424 9.33991 5.85859C8.65133 5.29293 8.30704 4.49832 8.30704 3.47475C8.30704 2.47811 8.62379 1.6431 9.25728 0.969695C9.86322 0.323231 10.662 0 11.6535 0C12.6451 0 13.4576 0.336699 14.0911 1.0101C14.697 1.71044 15 2.55892 15 3.55555C15 5.22559 14.5869 6.82828 13.7606 8.36364C12.9343 9.92593 11.8876 11.138 10.6207 12L9.46385 10.9091Z" fill="currentColor" fill-opacity="1" />
                                                     </svg>
                                                 </div>
                                                 <p>Maecenas eget ullamcorper dolor placerat ipsum. Aliquam dictum massa eu libero vehicula, id dapibus ligula vulputate. Donec arcu elit, pulvinar quis orci ut, tincidunt justo consectetur .</p>
@@ -601,11 +602,11 @@
                                     <div class="price-switch-wrapper tp_fade_bottom">
                                         <label class="toggler toggler--is-active" id="filt-monthly">Pay Monthly</label>
                                         <div class="toggle">
-                                        <input type="checkbox" id="switcher" class="tp-check">
-                                        <b class="switch"></b>
+                                            <input type="checkbox" id="switcher" class="tp-check">
+                                            <b class="switch"></b>
                                         </div>
                                         <label class="toggler yearly-pack" id="filt-yearly">Pay Yearly<span class="amount-offer">Save 34%</span></label>
-                                    </div>                                 
+                                    </div>
                                 </div>
                             </div>
                             <div id="monthly" class="wrapper-full">
@@ -634,7 +635,9 @@
                                             </div>
                                             <div class="price-item-head">
                                                 <h5 class="price-item-title">Standard Plan</h5>
-                                                <div class="price-item-amount"><del>$85</del><h2 class="price-item-amount-title">$35<span>.8</span></h2><span class="amount-offer">49.2%</span></div>
+                                                <div class="price-item-amount"><del>$85</del>
+                                                    <h2 class="price-item-amount-title">$35<span>.8</span></h2><span class="amount-offer">49.2%</span>
+                                                </div>
                                                 <p>/Month (annually billed)</p>
                                                 <span class="price-item-offer">SAVE UP TO $54.2</span>
                                                 <a class="price-item-btn" href="#">Choose Plan<i class="fa-light fa-angle-right"></i></a>
@@ -652,7 +655,9 @@
                                         <div class="price-item">
                                             <div class="price-item-head">
                                                 <h5 class="price-item-title">Liter Plan</h5>
-                                                <div class="price-item-amount"><del>$89</del><h2 class="price-item-amount-title">$56<span>.8</span></h2><span class="amount-offer">30%</span></div>
+                                                <div class="price-item-amount"><del>$89</del>
+                                                    <h2 class="price-item-amount-title">$56<span>.8</span></h2><span class="amount-offer">30%</span>
+                                                </div>
                                                 <p>/Month (annually billed)</p>
                                                 <span class="price-item-offer">SAVE UP TO $54.2</span>
                                                 <a class="price-item-btn" href="#">Choose Plan<i class="fa-light fa-angle-right"></i></a>
@@ -670,7 +675,9 @@
                                         <div class="price-item">
                                             <div class="price-item-head">
                                                 <h5 class="price-item-title">Premium Plan</h5>
-                                                <div class="price-item-amount"><del>$99</del><h2 class="price-item-amount-title">$89<span>.8</span></h2><span class="amount-offer">30%</span></div>
+                                                <div class="price-item-amount"><del>$99</del>
+                                                    <h2 class="price-item-amount-title">$89<span>.8</span></h2><span class="amount-offer">30%</span>
+                                                </div>
                                                 <p>/Month (annually billed)</p>
                                                 <span class="price-item-offer">SAVE UP TO $27.2</span>
                                                 <a class="price-item-btn" href="#">Choose Plan<i class="fa-light fa-angle-right"></i></a>
@@ -712,7 +719,9 @@
                                             </div>
                                             <div class="price-item-head">
                                                 <h5 class="price-item-title">Standard Plan</h5>
-                                                <div class="price-item-amount"><del>$95</del><h2 class="price-item-amount-title">$55<span>.8</span></h2><span class="amount-offer">49.2%</span></div>
+                                                <div class="price-item-amount"><del>$95</del>
+                                                    <h2 class="price-item-amount-title">$55<span>.8</span></h2><span class="amount-offer">49.2%</span>
+                                                </div>
                                                 <p>/Month (annually billed)</p>
                                                 <span class="price-item-offer">SAVE UP TO $54.2</span>
                                                 <a class="price-item-btn" href="#">Choose Plan<i class="fa-light fa-angle-right"></i></a>
@@ -730,7 +739,9 @@
                                         <div class="price-item">
                                             <div class="price-item-head">
                                                 <h5 class="price-item-title">Liter Plan</h5>
-                                                <div class="price-item-amount"><del>$99</del><h2 class="price-item-amount-title">$76<span>.8</span></h2><span class="amount-offer">30%</span></div>
+                                                <div class="price-item-amount"><del>$99</del>
+                                                    <h2 class="price-item-amount-title">$76<span>.8</span></h2><span class="amount-offer">30%</span>
+                                                </div>
                                                 <p>/Month (annually billed)</p>
                                                 <span class="price-item-offer">SAVE UP TO $54.2</span>
                                                 <a class="price-item-btn" href="#">Choose Plan<i class="fa-light fa-angle-right"></i></a>
@@ -748,7 +759,9 @@
                                         <div class="price-item">
                                             <div class="price-item-head">
                                                 <h5 class="price-item-title">Premium Plan</h5>
-                                                <div class="price-item-amount"><del>$240</del><h2 class="price-item-amount-title">$99<span>.8</span></h2><span class="amount-offer">30%</span></div>
+                                                <div class="price-item-amount"><del>$240</del>
+                                                    <h2 class="price-item-amount-title">$99<span>.8</span></h2><span class="amount-offer">30%</span>
+                                                </div>
                                                 <p>/Month (annually billed)</p>
                                                 <span class="price-item-offer">SAVE UP TO $27.2</span>
                                                 <a class="price-item-btn" href="#">Choose Plan<i class="fa-light fa-angle-right"></i></a>
@@ -836,14 +849,14 @@
                         </div>
                     </section>
                     <!-- brand area end -->
-    
+
                     <!-- faq area start -->
                     <section class="h4_faq-area pt-130">
                         <div class="container">
                             <div class="row">
                                 <div class="col-xl-5 col-lg-5">
                                     <div class="h4_section-area mb-45 text-center text-lg-start">
-                                        <h2 class="h4_section-title tp_title_slideup mb-0">Frequently 
+                                        <h2 class="h4_section-title tp_title_slideup mb-0">Frequently
                                             asked questions.</h2>
                                     </div>
                                     <div class="h4_faq-img mb-30 text-center text-lg-start tp_fade_right">
@@ -862,7 +875,7 @@
                                                     <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#Expp">
                                                         <div class="accordion-body">
                                                             <p>
-                                                            Sed Mattis eros lectors, eu fermentum Felis laborites convallis. Nam Felis arco, sed  mi Faubus quips. Fusco id dui nil. Sed ac lorem a dolor incident suscept quips Purus. Poetesque auctor fugit Elementa. ante ipsum primes in Faubus orca lotus et utricles poseurs cub ilia curare.</p>
+                                                                Sed Mattis eros lectors, eu fermentum Felis laborites convallis. Nam Felis arco, sed mi Faubus quips. Fusco id dui nil. Sed ac lorem a dolor incident suscept quips Purus. Poetesque auctor fugit Elementa. ante ipsum primes in Faubus orca lotus et utricles poseurs cub ilia curare.</p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -874,7 +887,7 @@
                                                     <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#Expp">
                                                         <div class="accordion-body">
                                                             <p>
-                                                            Sed Mattis eros lectors, eu fermentum Felis laborites convallis. Nam Felis arco, sed  mi Faubus quips. Fusco id dui nil. Sed ac lorem a dolor incident suscept quips Purus. Poetesque auctor fugit Elementa. ante ipsum primes in Faubus orca lotus et utricles poseurs cub ilia curare.</p>
+                                                                Sed Mattis eros lectors, eu fermentum Felis laborites convallis. Nam Felis arco, sed mi Faubus quips. Fusco id dui nil. Sed ac lorem a dolor incident suscept quips Purus. Poetesque auctor fugit Elementa. ante ipsum primes in Faubus orca lotus et utricles poseurs cub ilia curare.</p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -886,7 +899,7 @@
                                                     <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#Expp">
                                                         <div class="accordion-body">
                                                             <p>
-                                                            Sed Mattis eros lectors, eu fermentum Felis laborites convallis. Nam Felis arco, sed  mi Faubus quips. Fusco id dui nil. Sed ac lorem a dolor incident suscept quips Purus. Poetesque auctor fugit Elementa. ante ipsum primes in Faubus orca lotus et utricles poseurs cub ilia curare.</p>
+                                                                Sed Mattis eros lectors, eu fermentum Felis laborites convallis. Nam Felis arco, sed mi Faubus quips. Fusco id dui nil. Sed ac lorem a dolor incident suscept quips Purus. Poetesque auctor fugit Elementa. ante ipsum primes in Faubus orca lotus et utricles poseurs cub ilia curare.</p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -898,7 +911,7 @@
                                                     <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#Expp">
                                                         <div class="accordion-body">
                                                             <p>
-                                                            Sed Mattis eros lectors, eu fermentum Felis laborites convallis. Nam Felis arco, sed  mi Faubus quips. Fusco id dui nil. Sed ac lorem a dolor incident suscept quips Purus. Poetesque auctor fugit Elementa. ante ipsum primes in Faubus orca lotus et utricles poseurs cub ilia curare.</p>
+                                                                Sed Mattis eros lectors, eu fermentum Felis laborites convallis. Nam Felis arco, sed mi Faubus quips. Fusco id dui nil. Sed ac lorem a dolor incident suscept quips Purus. Poetesque auctor fugit Elementa. ante ipsum primes in Faubus orca lotus et utricles poseurs cub ilia curare.</p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -942,7 +955,7 @@
                                 <div class="col-xl-3 col-lg-3 col-md-5 col-sm-6 tp_has_fade_anim" data-fade-from="left" data-delay=".8">
                                     <div class="h4_footer-widget mb-40">
                                         <div class="h4_footer-logo">
-                                            <a href="index.php"><img src="assets/images/logo/logo.png" alt=""></a>
+                                            <a href="index.php"><img src="assets/images/logo/logo-core.png" alt=""></a>
                                         </div>
                                         <p class="h4_footer-widget-text">Lorem Ipsum has been the industry's standard dummy text ever since.</p>
                                         <div class="h4_footer-widget-social">
@@ -992,10 +1005,10 @@
                                             <p>235 Bowery, New York, NY 40882, United States</p>
                                             <a href="mailto:example@gmail.com">
                                                 <svg width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M1 5C1 2.2 2.6 1 5 1H13C15.4 1 17 2.2 17 5V10.6C17 13.4 15.4 14.6 13 14.6H5" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                                                    <path d="M13 5.40039L10.496 7.40015C9.672 8.05607 8.32 8.05607 7.496 7.40015L5 5.40039" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                                                    <path d="M1 11.4004H5.8" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                                                    <path d="M1 8.19922H3.4" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                                    <path d="M1 5C1 2.2 2.6 1 5 1H13C15.4 1 17 2.2 17 5V10.6C17 13.4 15.4 14.6 13 14.6H5" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                                    <path d="M13 5.40039L10.496 7.40015C9.672 8.05607 8.32 8.05607 7.496 7.40015L5 5.40039" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                                    <path d="M1 11.4004H5.8" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                                    <path d="M1 8.19922H3.4" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
                                                 </svg>
                                                 example@gmail.com
                                             </a>
@@ -1034,5 +1047,6 @@
 
     <!-- jQuery Js -->
     <?php include './partials/script.php' ?>
-  </body>
+</body>
+
 </html>

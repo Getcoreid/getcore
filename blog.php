@@ -40,18 +40,17 @@
                                 <div class="col-xl-6 col-lg-5 d-none d-lg-block">
                                     <div class="h5_header-top-right">
                                         <div class="h5_header-top-language">
-                                            <select name="select" class="h5_header-top-language-option has-nice-select">
-                                                <option value="1">English</option>
-                                                <option value="2">Bangla</option>
-                                                <option value="3">Arabic</option>
-                                                <option value="4">Urdu</option>
+                                            <select name="language"
+                                                class="h5_header-top-language-option has-nice-select">
+                                                <option value="id" selected>Indonesian</option>
+                                                <option value="en">English</option>
                                             </select>
                                         </div>
                                         <div class="h5_header-top-currency">
-                                            <select name="select" class="h5_header-top-currency-option has-nice-select">
-                                                <option value="1">$USD</option>
-                                                <option value="2">৳Taka</option>
-                                                <option value="3">€Euro</option>
+                                            <select name="currency"
+                                                class="h5_header-top-currency-option has-nice-select">
+                                                <option value="idr" selected>IDR</option>
+                                                <option value="usd">$USD</option>
                                             </select>
                                         </div>
                                         <div class="h5_header-top-account">
@@ -88,47 +87,10 @@
                                     <div class="h5_header-menu ">
                                         <nav class="h5_header-nav-menu" id="mobile-menu">
                                             <ul>
-                                                <li class="menu-has-child">
-                                                    <a href="index.php">Home</a>
-                                                    <ul class="submenu">
-                                                        <li><a href="index.php">AI Doodle</a></li>
-                                                        <li><a href="index-2.php">AI Co-Pilot</a></li>
-                                                        <li><a href="index-3.php">AI Image Generator</a></li>
-                                                        <li><a href="index-4.php">AI Text Generator</a></li>
-                                                        <li><a href="index-5.php">AI Photostock</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li><a href="about.php">About</a></li>
-                                                <li class="menu-has-child">
-                                                    <a href="#">Pages</a>
-                                                    <ul class="submenu">
-                                                        <li><a href="service.php">Services</a></li>
-                                                        <li><a href="team.php">Team</a></li>
-                                                        <li><a href="work.php">Portfolio</a></li>
-                                                        <li><a href="price.php">Pricing</a></li>
-                                                        <li><a href="faq.php">FAQ's</a></li>
-                                                        <li><a href="testimonial.php">Testimonials</a></li>
-                                                        <li><a href="wishlist.php">Wishlist</a></li>
-                                                        <li><a href="cart.php">Cart</a></li>
-                                                        <li><a href="checkout.php">Checkout</a></li>
-                                                        <li><a href="login.php">Login</a></li>
-                                                        <li><a href="404.php">404</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li class="menu-has-child">
-                                                    <a href="shop.php">Shop</a>
-                                                    <ul class="submenu">
-                                                        <li><a href="shop.php">Shop</a></li>
-                                                        <li><a href="shop-details.php">Shop Details</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li class="menu-has-child">
-                                                    <a href="blog.php">Blog</a>
-                                                    <ul class="submenu">
-                                                        <li><a href="blog.php">Blog</a></li>
-                                                        <li><a href="blog-details.php">Blog Details</a></li>
-                                                    </ul>
-                                                </li>
+                                                <li><a href="index.php">Home</a></li>
+                                                <li><a href="about.php">About CORE</a></li>
+                                                <li><a href="shop.php">Shop</a></li>
+                                                <li><a href="blog.php">Blog</a></li>
                                                 <li><a href="contact.php">Contact</a></li>
                                             </ul>
                                         </nav>
@@ -161,7 +123,7 @@
                 </header>
 
                 <main>
-                    <?php $subTitle='Our Blog' ?>
+                    <?php $subTitle = 'Our Blog' ?>
                     <!-- breadcrumb area start -->
                     <?php include './partials/breadcrumb.php' ?>
                     <!-- breadcrumb area end -->
